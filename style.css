@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(6.jpg);
+  background-size: cover;
+  background-size: 100% 760px;
+  width:1300px;
+  height: 1400px;
+  background-repeat: no-repeat;
+  background-color: #0d2b21;
+
+}
+.firstPage {
+
+    position: relative;
+    top: 180px;
+    left: 20px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #b8dbc1;
+}
+.firstPage h1{
+    position:relative;
+    top: -25px;
+    left: 250px;
+}
+.lefted {
+  position: absolute;
+  left: 90px;
+}
+.firstPage p {
+    color:white;
+    font-size: 22px;
+    width: 60%;
+    margin-top: 50px;
+    position: absolute;
+    right: 10px;
+}
+button{
+    background: none;
+    position: relative;
+    border: none;
+    border-bottom:4px solid #005d64;
+    color: #b8dbc1;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+button::after{
+    content: '';
+    position: absolute;
+    top:70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgb(0, 87, 94);
+    z-index: -10;
+    transition: 0.4s;
+}
+button:hover:after{
+  top:0px;
+  transition: 0.4s;
+}
+
+button:hover{
+  color:white;
+}
+
+
+.btn1{
+    width: 200px;
+    height: 65px;
+    position: absolute;
+    left: 280px;
+    bottom: -110px;
+
+
+
+}
+.btn2{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 280px;
+    bottom: -175px;
+}
+/*************************************************/
+.secondPage {
+  margin-top: 550px;
+  position: relative;
+  color: #B8DBC1;
+  display: flex;
+  margin-left: 200px;
+  justify-content: center;
+  width: 1300
+
+}
+.secondPage div {
+    height: 700px;
+    width: 45%;
+    margin: 50px;
+    font-family: sans-serif;
+    border: 2px solid #ce8069;
+    padding: 50px;
+    position: relative;
+}
+.secondPage h2 {
+  font-size: 35px;
+}
+
+.secondPage li {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.secondPage p {
+    font-size: 21px;
+    margin-top:20px;}
+
+.secondPage div::after{
+        content: '';
+        position: absolute;
+        top:700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background:#ce8069;
+        z-index: -10;
+        transition: 0.4s;
+    }
+.secondPage div:hover:after{
+      top:0px;
+      transition: 0.4s;
+
+    }
+.secondPage div:hover{
+  color:white;
+}
+
+.secondPage a {
+          text-decoration: none;
+          color:#B8DBC1;
+    }
+.secondPage div:hover a {
+  color:white;
+}
+
+.secondPage ol li span{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************/

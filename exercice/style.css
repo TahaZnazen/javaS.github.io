@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 120%;
+
+}
+
+a{
+  margin:20px;
+  width: 300px;
+}
+button{
+  font-size: 20px;
+  font-family: monospace;
+}
+.one{
+  width: 100%;
+  height: 200px;
+  background: none;
+  color: white;
+  border: 2px solid #ff6247;
+  position: relative;
+}
+.two{
+  width: 100%;
+  height: 200px;
+  background: none;
+  color: white;
+  border: 2px solid #06cbd6;
+  position: relative;
+}
+.one::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background-color: #ff6247;
+  z-index: -1;
+  transition: 0.4s;
+}
+.one:hover:after{
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  transition: 0.4s;
+}
+.two::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background-color: #06cbd6;
+  z-index: -1;
+  transition: 0.4s;
+}
+.two:hover:after{
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  transition: 0.4s;
+}
+
+
+
+
+.one::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background-color: #ff6247;
+  z-index: -1;
+
+}
+.one:hover:before{
+top: 0px;
+  left: 0px;
+  height: 100%;
+  filter: blur(50px);
+}
+.two::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background-color: #06cbd6;
+  z-index: -1;
+
+  filter: blur(20px);
+}
+.two:hover:before{
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+button:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}

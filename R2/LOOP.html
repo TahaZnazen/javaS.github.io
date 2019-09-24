@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css "href="style.css">
+    <title></title>
+  </head>
+
+  <body>
+    <h1><span>L</span>OOPS</h1>
+    <div class="firstP">
+        <p>loops check a confition . If it return true,a code block will run.<br>
+        then the condition will be checked again and if it still return true , the code block will run again .it repeats until the condition return false .
+       there are three common type of loops</p>
+    </div>
+    <div class="loops">
+        <div>
+            <h2> FOR </h2>
+            <p>If you need to run code a specific number of times,use a for loop (it is the most common loop)
+            in a for loop,the condition is usually a counter which is used to tell how many times the loop should run </p>
+        </div>
+        <div >
+            <h2> WHILE</h2>
+            <p>if you do not know how many times the code should run , you can use a while loop . here the condition can be something other than a counter ,and the code will continue to loop for as long the condition is true</p>
+        </div>
+        <div >
+            <h2> DO WHILE</h2>
+            <p>the do ... while loop is very similar to the while loop , but gas one key difference : its will alwats run the statements inside the curly braces at least once , even if the condition evaluates to false</p>
+        </div>
+
+    </div>
+    <div class="secondP">
+        <h2>Here are three points to consider when you are working with loops:</h2>
+        <div>
+            <h1>KEYWORDS</h1>
+            <p>you will commonly see  these two keywords used with loop</p>
+            <h1 id="break">BREAK</h1>
+            <p id=breaks>This keyword causes the termination of the loop and tells the interpreter to go onto the next statement of code outside of the loop. (You may also see it used in functions.)</p>
+            <h1 id="continue">CONTINUE</h1>
+            <p id="continues">This keyword tells the interpreter to continue with the current iteration, and then check the condition again. (If it is true, the code runs again.)</p>
+        </div>
+        <div>
+            <h1>LOOPS & ARRAYS</h1>
+            <p>Loops are very helpful when dealing with arrays if you want to run the same code for each item in the array. For example, you might want to write the value of each item stored in an array into the page. You may not know how many items will be in an array when writing a script, but. when the code runs, it can check the total number of items in a loop. That figure can then be used in the counter to control how many times a set of statements is run. Once the loop has run the right number of times, the loop stops</p>
+        </div>
+        <div>
+            <h1>PERFORMANCE ISSUES</h1>
+            <p>It is important to remember that when a browser comes across JavaScript, it will stop doing anything else until it has processed that script. If your loop is dealing with only a small number of items, this will not be an issue. If, however, your loop contains a lot of items, it can make the page slower to load. If the condition never returns fa1se, you get what is commonly referred to as an infinite loop. The code will not stop running until your browser runs out of memory (breaking your script). Any variable you can define outside of the loop and that does not change within the loop should be defined outside of it. If it were declared inside the loop, it would be recalculated every time the loop ran, needlessly using resources.</p>
+          </div>
+
+
+    </div>
+  </body>
+</html>
